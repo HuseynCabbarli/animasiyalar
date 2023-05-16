@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    margin-top: 20px;
+}
+.red{background-color: red;
+    display: block;
+    margin-bottom: 20px;
+    width: 200px;
+height: 200px;
+transition: all 2s;
+
+}
+
+.blue{
+    background-color: blue;
+    width: 200px;
+height: 200px;
+transition: all 2s;
+transition-delay: 1s;
+
+
+}
+.container:hover >div{
+    width: 500px;
+}

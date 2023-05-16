@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: green;
+}
+p{ margin: 20px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div{ font-size: 24px;
+    margin: 20px;
+    transform: skewX(-20deg);
+   display: inline-block;
+border: 3px solid black;
+}
+div:hover {
+ 
+color: green;
+    transform: skewX(0deg);
+    border: 3px solid green;
+  }

@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{ width: 50vh;
+    background-color: rgb(37, 10, 190);
+  border-radius: 5px;
+    color: white;
+    
+    margin: 10px;}
+    p:hover{
+        border-radius: 0%;
+        background-color: rgb(147, 102, 189);
+        color: black;
+       
+    }
+ 
+    

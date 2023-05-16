@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h1{
+    text-align: center;
+}
+p{
+    margin-top: 30px;
+}
+.box1{ width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    margin: auto;
+    top: 50px;
+    animation-name: box1;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+
+}@keyframes box1{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.boxgreen{ width: 170px;
+    height: 170px;
+    background-color: green;
+    position: relative;
+    top: 16px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    animation-name: box2;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes box2{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.boxblue{
+    position: relative;
+    top: 16px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: blue;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+ animation-duration: 5s;
+ animation-name: box3;
+ animation-iteration-count: infinite;
+ 
+}
+@keyframes box3{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+

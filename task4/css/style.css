@@ -1,0 +1,128 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+span {
+    position: relative;
+    bottom: 150px;
+    left: 500px;
+    font-size: 24px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+  }
+.red {
+  background-color: red;
+  width: 150px;
+  height: 150px;
+  transition-duration: 2s;
+}
+
+
+.yellow {
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+  transition-duration: 2s;
+}
+
+
+
+.blue {
+  background-color: blue;
+  width: 150px;
+  height: 150px;
+  transition-duration: 2s;
+  animation-name: blue;
+}
+
+
+.green {
+  background-color: green;
+  width: 150px;
+  height: 150px;
+  transition-duration: 2s;
+}
+
+.container {
+  margin-top: 20px;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  left: 320px;
+  
+}
+
+.flex2 {
+  display: flex;
+}
+.flex1 {
+  display: flex;
+}
+.container:hover .red{
+    transition-duration: 800ms;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform-origin: top left;
+}
+.container:hover .yellow{
+    transition-duration: 800ms;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform-origin: top right;
+}
+.container:hover .blue{
+    transition-duration: 800ms;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform-origin: bottom left;
+}
+.container:hover .green{
+    transition-duration: 800ms;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform-origin: bottom right;
+}
+.container:hover.red{
+    transition: all 800ms ease;
+    -webkit-transition: all 800ms ease;
+    -moz-transition: all 800ms ease;
+    -ms-transition: all 800ms ease;
+    -o-transition: all 800ms ease;
+}
+.container:hover.yellow{
+    transition: all 800ms ease;
+    -webkit-transition: all 800ms ease;
+    -moz-transition: all 800ms ease;
+    -ms-transition: all 800ms ease;
+    -o-transition: all 800ms ease;
+}
+.container:hover.blue{
+    transition: all 800ms ease;
+    -webkit-transition: all 800ms ease;
+    -moz-transition: all 800ms ease;
+    -ms-transition: all 800ms ease;
+    -o-transition: all 800ms ease;
+}
+.container:hover.green{
+    transition: all 800ms ease;
+    -webkit-transition: all 800ms ease;
+    -moz-transition: all 800ms ease;
+    -ms-transition: all 800ms ease;
+    -o-transition: all 800ms ease;
+}
+
